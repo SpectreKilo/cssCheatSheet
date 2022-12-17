@@ -7,8 +7,8 @@ background-color: beige;
       
 }
 .card {
-flex-direction: row;
-text-align: center;
+flex-direction: column;
+text-align: left;
 background: linear-gradient(135deg, blue, cyan);
 padding: 15px;
 margin: 10px;
@@ -20,8 +20,35 @@ border-radius: 50px;
 main {
     display: flex;
     flex-wrap:wrap ;
+    
+}
+main section{
+    border: double 5px lime;
 }
 
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    }             
 
+.column {
+    display: flex;
+    flex-direction: column;
+        }
 
+.card-header {
+    position: relative;
+    margin-top: -20px;
+}
+.card:hover {
+    box-shadow: inset 0px 0px 15px lime;
+}
+pre:hover{
+    user-select: all;
+}
+pre::selection {
+color: white;
+background-color: blueviolet;
+}
 
