@@ -14,19 +14,14 @@ padding: 15px;
 margin: 10px;
 float: left;
 border: 8px;
-border-radius: 10px;
+border-radius: 50px;
 }
 
 main {
     display: flex;
     flex-wrap:wrap ;
 }
-h1,
-h2,
-h3,
-{
-    
-}
+
 
 
 
