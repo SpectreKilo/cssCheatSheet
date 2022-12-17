@@ -20,3 +20,7 @@ main {
     flex-wrap:wrap ;
 }
 
+card::hover{
+    background-color: blueviolet;
+}
+
